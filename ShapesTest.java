@@ -39,7 +39,6 @@ public class ShapesTest {
 		
 		
 		// Prompting for user input for cube
-		// TODO: Validation for negative numbers
 		System.out.print("Enter the width of the cube: ");
 		userCubeWidth = userInput.nextFloat();
 		cuboidTest.setWidth(userCubeWidth);
@@ -48,15 +47,12 @@ public class ShapesTest {
 		userCubeHeight = userInput.nextFloat();
 		cuboidTest.setHeight(userCubeHeight);
 		
-		
-		
 		System.out.print("Enter the depth of the cube: ");
 		userCubeDepth = userInput.nextFloat();
 		cuboidTest.setDepth(userCubeDepth);
 		
 		
 		// Prompting for user input for cylinder
-		// TODO: Validation for negative numbers
 		System.out.print("Enter the radius of the cylinder: ");
 		userCylinderRadius = userInput.nextFloat();
 		cylinderTest.setRadius(userCylinderRadius);
@@ -67,7 +63,6 @@ public class ShapesTest {
 		
 		
 		// Prompting for user input for sphere
-		// TODO: Validation for negative numbers
 		System.out.print("Enter the radius of the sphere: ");
 		userSphereRadius = userInput.nextFloat();
 		sphereTest.setRadius(userSphereRadius);
